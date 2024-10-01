@@ -46,7 +46,9 @@ function Filter({
     <div className="container mx-auto flex flex-col items-center gap-4 p-4 lg:px-20 mb-10 mt-10">
       <div className="w-full flex flex-col gap-4 items-center justify-center lg:flex-row lg:gap-2">
         {/* Campo di ricerca */}
-        <div className="w-full lg:w-2/2"> {/* Allargato */}
+        <div className="w-full lg:w-2/2">
+          {" "}
+          {/* Allargato */}
           <Search
             query={query}
             onSearch={onSearch}
@@ -84,15 +86,10 @@ function Filter({
             } font-bold transition-colors duration-300 border-rosso`}
           />
           {/* SwitchBox e Reset Filtri */}
-          <div className="flex items-center justify-between w-full mt-4 md:mt-0 gap-4"> 
-            <SwitchBox
-              label={"Gratis"}
-              value={isFree}
-              setValue={setIsFree}
-
-            />
+          <div className="flex items-center justify-between w-full mt-4 md:mt-0 gap-4">
+            <SwitchBox label={"Gratis"} value={isFree} setValue={setIsFree} />
             <Button
-              label={"Reset Filtri"}
+              label={"Reset"}
               onClick={handleReset}
               className="w-full px-3 py-2 border-2 border-gray-500 text-gray-500 bg-white hover:bg-gray-500 hover:text-white font-bold transition-colors duration-300"
             />
