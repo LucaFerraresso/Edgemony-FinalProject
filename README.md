@@ -118,3 +118,4 @@ Visita la demo del progetto: [SicilyPulse](https://sicilypulse.vercel.app/)
 
 **Stefania Beninati**  
 [LinkedIn](https://www.linkedin.com/in/stefania-beninati-208577202/) | [GitHub](https://github.com/aniaBeninati)
+# Edgemony-FinalProject
